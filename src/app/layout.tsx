@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import './globals.css';
 import { siteConfig } from '@/config/site';
+import Navbar from './components/ui/Navbar';
 
 const openSans = Open_Sans({
     subsets: ['latin'],
@@ -45,6 +46,7 @@ export default function RootLayout({
         <html lang='en'>
             <body
                 className={`${openSans.className} text-zinc-800 bg-primary-50 antialiased`}>
+                <Navbar />
                 {children}
             </body>
         </html>

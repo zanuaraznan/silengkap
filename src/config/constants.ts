@@ -7,7 +7,7 @@ interface SectionBase<T> {
 type NavDropdown = Record<string, string[]>;
 
 const NAV_LIST: Array<string | NavDropdown> = [
-    'beranda',
+    'Beranda',
     { PelatihanKerja: ['Kejuruan pelatihan kerja', 'Pendaftaran pelatihan'] },
     { Pengaduan: ['Survey kepuasan', 'Pengaduan masyarakat'] },
     {

@@ -13,3 +13,11 @@
     --color-primary-800: #274a71;
     --color-primary-900: #1e3956;
 }
+
+@utility container {
+    @apply mx-auto font-medium;
+}
+
+.nav-item {
+    @apply p-2 px-4 rounded-lg transition-colors hover:bg-slate-700/10;
+}
